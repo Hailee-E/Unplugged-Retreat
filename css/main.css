@@ -103,6 +103,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -355,6 +356,12 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
 /********************** About Page *************************/
@@ -582,7 +589,7 @@ input[type=button] {
     margin: 0;
   }
 
-  .features-article {
+  .features article {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -643,7 +650,7 @@ input[type=button] {
   }
 
   footer p {
-    line-height: 1.285em;
+    line-height: 1.285;
   }
 
   footer .social-icons {
@@ -702,7 +709,7 @@ input[type=button] {
 
   .faq h4,
   .faq p {
-    font-size: 0.875em;
+    font-size: .875em;
     line-height: 1.125;
   }
 }
@@ -734,6 +741,7 @@ input[type=button] {
 
   .hero-area h1 {
     width: 60%;
+    font-size: 3.75em;
   }
 
   aside .content-wrapper {
@@ -768,6 +776,7 @@ input[type=button] {
   footer h4 {
     font-size: 1.875em;
   }
+
  
 /**** About page ****/
 
@@ -778,6 +787,7 @@ input[type=button] {
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
+    font-size: 3em;
   }
 
   .contact-content h4 {
@@ -786,7 +796,8 @@ input[type=button] {
 
 /**** FAQ page ****/
   .faq h2 {
-    width: 100%
+    width: 100%;
+    font-size: 3em;
   }
 
   .faq h4,
